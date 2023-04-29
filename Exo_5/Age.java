@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class Age {
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         int age;
         String info;
         System.out.print("Cher utilisateur, veuillez entrer votre age : ");
         Scanner sc = new Scanner(System.in);
         age = sc.nextInt();
 
-        if((age >= 6) && (age <= 7)){
+        if ((age >= 6) && (age <= 7)) {
             info = "Poussin";
         } else if ((age >= 8) && (age <= 9)) {
             info = "Pupille";
@@ -16,7 +16,7 @@ public class Age {
             info = "Minime";
         } else if (age >= 12) {
             info = "Cadet";
-        }else {
+        } else {
             info = "Hors catégorie";
         }
 

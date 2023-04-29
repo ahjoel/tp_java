@@ -7,15 +7,15 @@ class Echange {
 
         // Affichage a l'écran de la saisie du nombre a
         System.out.print("Entrer un nombre a : ");
-        
+
         // Lecture du nombre a
         Scanner sc = new Scanner(System.in);
         // Réception du nombre a saisie
         a = sc.nextInt();
-        
+
         // Affichage a l'écran de la saisie du nombre b
         System.out.print("Entrer un nombre b : ");
-        
+
         // Lecture du nombre a
         // Scanner scb = new Scanner(System.in);
         // Réception du nombre a saisie

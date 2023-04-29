@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RandomNumber {
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         int randomNumber, num;
         String info;
         Scanner input = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class RandomNumber {
             System.out.print("Veuillez saisir un nombre dans l'intervalle de 10 et 20 qui correspond au random: ");
             num = input.nextInt();
 
-            if (num < 10){
+            if (num < 10) {
                 info = "Plus petit, reesayer!";
             } else if (num > 20) {
                 info = "Plus grand, reesayer!";

@@ -13,9 +13,9 @@ public class Produit {
 
         // Traitement
         resultat = a * b;
-        if(resultat < 0){
+        if (resultat < 0) {
             System.out.println("Pour Info, le produit des nombres saisies est négatif");
-        }else{
+        } else {
             System.out.println("Pour Info, le produit des nombres saisies est positif");
         }
     }

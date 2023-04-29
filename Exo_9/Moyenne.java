@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Moyenne {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double somme = 0, moyenne;
         int nombreNote;
@@ -26,7 +26,7 @@ public class Moyenne {
         // Affichage des notes superieur a la moyenne
 
         for (int j = 0; j < nombreNote; j++) {
-            if (tableauNote[j] >= moyenne){
+            if (tableauNote[j] >= moyenne) {
                 System.out.println("Note superieur a la moyenne general : " + tableauNote[j]);
             }
         }
